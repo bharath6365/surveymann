@@ -1,0 +1,14 @@
+{
+  "name": "surveyman",
+  "version": "1.0.0",
+  "description": "Send out surveys and get feedback from your user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "author": "Bharath",
+  "license": "ISC"
+}
