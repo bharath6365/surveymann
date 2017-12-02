@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const keys = require('./config/keys');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
-// Require all the models. They are a singleton
+// Require all the models. They are a singleton class
 
 require('./models/User');
 
