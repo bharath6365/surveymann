@@ -37,7 +37,7 @@ if (process.env.NODE_ENV === 'production') {
 
 // Kick the user to the client side application.
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirnamae, 'client', 'build', 'index.html'));
+  res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
 })
 
 
