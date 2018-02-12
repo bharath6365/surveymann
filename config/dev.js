@@ -4,5 +4,8 @@ module.exports = {
     mongoURI: "mongodb://user:user123@ds127436.mlab.com:27436/surveymann",
     cookieKey: "dogscanfly",
     stripePublishableKey: "pk_test_00SE8e45yLoxNDTUPdYJVmnu",
-    stripeSecretKey: "sk_test_k5q8fRZH3Yi2NXR1fQnGlYmx"
+    stripeSecretKey: "sk_test_k5q8fRZH3Yi2NXR1fQnGlYmx",
+    sendGridKey: "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",
+    sendGridRedirect: "http://localhost:3000"
+    
   }

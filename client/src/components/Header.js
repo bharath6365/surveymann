@@ -12,6 +12,7 @@ import Payments from './Payments';
                 <li><a href="/auth/google">Login with google</a></li>
             )
             break;
+            case 'Ignore':
             default:
             return [
                 <li key={1} ><Payments /></li>,

@@ -10,7 +10,12 @@ module.exports = (app) => {
     })
 
     app.get('/api/current_user', (req,res) => {
-        res.send(req.user);
+        if (req.user) {
+            res.send(req.user);
+        } else {
+            res.send('None');
+        }
+        
     })
 
     app.get('/api/logout', (req,res) => {

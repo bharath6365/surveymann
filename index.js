@@ -8,6 +8,7 @@ const path = require('path');
 // Require all the models. They are a singleton class
 
 require('./models/User');
+require('./models/Survey');
 
 require('./services/passport');
 
@@ -29,6 +30,7 @@ app.use(passport.session());
 
 require('./routes/authRoutes')(app);
 require('./routes/billingRoutes')(app);
+require('./routes/surveyRoutes')(app);
 
 // This is only for production as there is no create react app.
 if (process.env.NODE_ENV === 'production') {
